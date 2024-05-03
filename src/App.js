@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import CheckBoxField from "./components/class components/CheckBoxField";
+import InputField from "./components/class components/InputField";
+import RadioField from "./components/class components/RadioField";
+import SelectField from "./components/class components/SelectField";
+import TextAreaField from "./components/class components/TextAreaField";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InputField />
+      <SelectField />
+      <TextAreaField />
+      <CheckBoxField />
+      <RadioField />
     </div>
   );
 }
